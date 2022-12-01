@@ -2,13 +2,12 @@
 
 namespace App\Http\Controllers\Api;
 
-use App\Http\Controllers\Controller;
 use App\Post;
+use App\Http\Controllers\Controller;
 use App\Http\Requests\Post as PostRequests;
 
 class PostController extends Controller
 {
-
     protected $post;
 
     public function __construct(Post $post)
